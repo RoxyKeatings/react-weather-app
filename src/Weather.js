@@ -16,9 +16,9 @@ export default function Weather(props) {
   axios.get(apiUrl).then(handleResponse);
   return (
     <Bars
-      height="80"
-      width="80"
-      color="#4fa94d"
+      height="150"
+      width="100"
+      color="yellow"
       ariaLabel="bars-loading"
       wrapperStyle={{}}
       wrapperClass=""
